@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# This script is invincible! It catches SIGTERM and displays a message.
-
-# Define what to do when SIGTERM (signal 15) is received
+# This script displays "To infinity and beyond" and handles SIGTERM
 trap 'echo "I am invincible!!!"' SIGTERM
 
 while true
